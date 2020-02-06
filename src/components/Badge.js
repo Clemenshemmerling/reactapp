@@ -19,11 +19,11 @@ class Badge extends React.Component {
             src={avatar} 
             alt="Avatar"
           />
-          <h1>Clemens <br/>Hemmerling</h1>
+          <h1>{this.props.firstName}<br/>{this.props.lastName}</h1>
         </div>
         
         <div className="Badge__section-info">
-          <p>Frontend</p>
+          <p>{this.props.jobTitle}</p>
           <p>@clemens</p>
         </div>
 
