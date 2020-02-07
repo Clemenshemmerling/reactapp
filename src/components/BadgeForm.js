@@ -86,6 +86,7 @@ class BadgeForm extends React.Component {
               value={this.state.twitter}
             />
           </div>
+          
           <button 
             onClick={this.handleClick} 
             className="btn btn-primary"
